@@ -196,6 +196,15 @@
     .bar-track { height: 10px; background: rgba(255,255,255,.08); border-radius: 999px; overflow: hidden; margin-top: 8px; }
     .bar-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--cyan), var(--green)); border-radius: inherit; }
     .enemy { color: var(--red); font-weight: 850; }
+    .badge {
+      display: inline-block; padding: 3px 10px; border-radius: 99px;
+      font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em;
+    }
+    .badge-open   { background: rgba(112,227,155,.15); color: var(--green); border: 1px solid rgba(112,227,155,.3); }
+    .badge-closed { background: rgba(255,111,125,.12); color: var(--red);   border: 1px solid rgba(255,111,125,.3); }
+    .bet-won  { color: var(--green); font-weight: 850; }
+    .bet-lost { color: var(--red); }
+    .bet-open { color: var(--hot); }
     @media (max-width: 850px) {
       .hero, .grid { grid-template-columns: 1fr; }
       .odds-metrics { grid-template-columns: 1fr; }
@@ -229,9 +238,10 @@
       </div>
       <aside class="panel race-card">
         <div>
-          <div class="label">Current race</div>
+          <div class="label">Active betting race</div>
           <div class="race-name" id="race-name">Loading...</div>
           <div class="muted" id="race-video"></div>
+          <div style="margin-top:8px" id="race-status"></div>
         </div>
         <div class="generated" id="generated-at"></div>
       </aside>
@@ -294,8 +304,8 @@
     <section class="section">
       <div class="section-head">
         <div>
-          <h2>Current Odds and Payouts</h2>
-          <p>Odds are based on the active betting pool. Payout estimates show what the current numbers imply.</p>
+          <h2>Live Odds</h2>
+          <p id="odds-subtitle">Odds are based on the active betting pool for the current open race.</p>
         </div>
       </div>
       <article class="panel">
@@ -306,23 +316,23 @@
     <section class="section">
       <div class="section-head">
         <div>
-          <h2>All Bettors</h2>
-          <p>Sorted by highest bid. Select a user to view their profile.</p>
+          <h2>All Players</h2>
+          <p>Everyone who has ever placed a bet. Active bettors appear first.</p>
         </div>
       </div>
       <article class="panel wide">
         <div class="table-tools">
-          <input class="search-box" id="user-search" type="search" placeholder="Search your TikTok nickname or ID">
+          <input class="search-box" id="user-search" type="search" placeholder="Search TikTok nickname or ID">
           <div class="table-count" id="user-count"></div>
         </div>
         <table>
           <thead>
             <tr>
-              <th>User</th>
-              <th>Emoji</th>
-              <th>Highest bid</th>
+              <th>Player</th>
+              <th>Active bet</th>
+              <th>Amount</th>
               <th>Odds</th>
-              <th>Potential payout</th>
+              <th>Last settlement</th>
               <th>Balance</th>
             </tr>
           </thead>
@@ -428,17 +438,21 @@
     }
 
     function render(data) {
-      const race = data.current_race || {};
-      document.getElementById('race-name').textContent = race.race_id || 'No active race yet';
-      document.getElementById('race-video').textContent = race.tiktok_video_id ? `TikTok video ${race.tiktok_video_id}` : '';
+      const openRace = data.open_race || {};
+      const bettingOpen = !!data.betting_open;
+      document.getElementById('race-name').textContent = openRace.race_id || 'No open race yet';
+      document.getElementById('race-video').textContent = openRace.tiktok_video_id ? `TikTok video ${openRace.tiktok_video_id}` : (bettingOpen ? '' : 'No race linked to TikTok yet');
+      document.getElementById('race-status').innerHTML = bettingOpen
+        ? '<span class="badge badge-open">✓ Bets open</span>'
+        : '<span class="badge badge-closed">✗ Bets closed</span>';
       document.getElementById('generated-at').textContent = `Data updated ${shortDate(data.generated_at)}`;
 
       const summary = data.summary || {};
       document.getElementById('market-summary').innerHTML = `
-        <div class="summary-card"><span>Total bids</span><b>${number(summary.total_bids)}</b></div>
-        <div class="summary-card"><span>Total bid pool</span><b>$${money(summary.total_bid_amount)}</b></div>
-        <div class="summary-card"><span>Average bid</span><b>$${money(summary.average_bid)}</b></div>
-        <div class="summary-card"><span>Next race avg</span><b>$${money(summary.next_race_average_bid)}</b></div>
+        <div class="summary-card"><span>Total players</span><b>${number(summary.total_users)}</b></div>
+        <div class="summary-card"><span>Active bets (this race)</span><b>${number(summary.active_race_bids)}</b></div>
+        <div class="summary-card"><span>Active pool</span><b>${money(summary.active_race_amount)} coins</b></div>
+        <div class="summary-card"><span>Avg active bet</span><b>${money(summary.active_race_avg_bid)} coins</b></div>
       `;
 
       const victories = document.getElementById('victories');
@@ -487,24 +501,31 @@
       });
       if (!enemies.innerHTML) enemies.innerHTML = '<div class="empty">No rivalry data yet.</div>';
 
-      const odds = document.getElementById('odds');
-      odds.innerHTML = '';
-      (data.current_odds || []).forEach(row => {
-        odds.insertAdjacentHTML('beforeend', `
-          <div class="odds-row">
-            <div class="emoji">${row.emoji}</div>
-            <div>
-              <b>${row.emoji} betting line</b>
-              <div class="odds-metrics">
-                <div class="metric"><span class="muted">Pool</span><b>$${money(row.total_amount)}</b></div>
-                <div class="metric"><span class="muted">Odds</span><b>${money(row.decimal_odds)}x</b></div>
-                <div class="metric"><span class="muted">$1 wins</span><b>$${money(row.decimal_odds)}</b></div>
+      const oddsSubtitle = document.getElementById('odds-subtitle');
+      const oddsEl = document.getElementById('odds');
+      oddsEl.innerHTML = '';
+      if (!bettingOpen) {
+        oddsSubtitle.textContent = 'Betting is currently closed. Odds will update when the next race is posted.';
+        oddsEl.innerHTML = '<div class="empty">Betting is closed — no active pool right now.</div>';
+      } else {
+        oddsSubtitle.textContent = `Live odds for the active race (${openRace.race_id || ''}). Pool updates hourly.`;
+        (data.current_odds || []).forEach(row => {
+          oddsEl.insertAdjacentHTML('beforeend', `
+            <div class="odds-row">
+              <div class="emoji">${row.emoji}</div>
+              <div>
+                <b>${row.emoji} betting line</b>
+                <div class="odds-metrics">
+                  <div class="metric"><span class="muted">Pool</span><b>${money(row.total_amount)} coins</b></div>
+                  <div class="metric"><span class="muted">Odds</span><b>${money(row.decimal_odds)}x</b></div>
+                  <div class="metric"><span class="muted">Bettors</span><b>${number(row.bettors)}</b></div>
+                </div>
               </div>
             </div>
-          </div>
-        `);
-      });
-      if (!odds.innerHTML) odds.innerHTML = '<div class="empty">No bets on the current race yet.</div>';
+          `);
+        });
+        if (!oddsEl.innerHTML) oddsEl.innerHTML = '<div class="empty">No bets placed yet. Be the first!</div>';
+      }
 
       allUsers = [...(data.users || [])].sort((a, b) => Number(b.highest_bid || 0) - Number(a.highest_bid || 0));
       applyUserFilter();
@@ -515,8 +536,8 @@
       const haystack = [
         user.nickname,
         user.tiktok_id,
-        user.next_bet?.emoji,
-        ...(user.bets || []).map(bet => `${bet.emoji} ${bet.race_id || ''}`)
+        user.active_bet?.emoji,
+        ...(user.bets || []).map(b => `${b.emoji} ${b.race_id || ''}`)
       ].join(' ').toLowerCase();
       return haystack.includes(query);
     }
@@ -541,25 +562,58 @@
       }
     }
 
+    function lastSettledBet(user) {
+      return (user.bets || [])
+        .filter(b => b.status !== 'open')
+        .sort((a, b) => new Date(b.settled_at || 0) - new Date(a.settled_at || 0))[0] || null;
+    }
+
+    function settlementCell(bet) {
+      if (!bet) return '<span class="muted">—</span>';
+      const amount = Number(bet.amount || 0);
+      const payout = Number(bet.payout || 0);
+      if (bet.status === 'won') {
+        const gain = payout - amount;
+        return `<span class="bet-won">+${money(gain)} coins</span><div class="muted" style="font-size:11px">${bet.emoji} won</div>`;
+      }
+      if (bet.status === 'lost') {
+        return `<span class="bet-lost">−${money(amount)} coins</span><div class="muted" style="font-size:11px">${bet.emoji} lost</div>`;
+      }
+      if (bet.status === 'refunded') {
+        return `<span class="muted">Refunded ${money(amount)}</span>`;
+      }
+      return '<span class="muted">—</span>';
+    }
+
     function renderNextUserBatch() {
       const users = document.getElementById('users');
       const next = visibleUsers.slice(renderedUsers, renderedUsers + PAGE_SIZE);
       next.forEach(user => {
-        const bet = user.next_bet || user.bets?.[0] || {};
+        const active = user.active_bet || null;
+        const settled = lastSettledBet(user);
         const href = `./user/?id=${encodeURIComponent(user.tiktok_id)}`;
+        const activeBetCell = active
+          ? `<span class="bet-open">${active.emoji}</span>`
+          : '<span class="muted">—</span>';
+        const activeAmountCell = active
+          ? `<span class="amount">${money(active.amount)} coins</span>`
+          : '<span class="muted">—</span>';
+        const activeOddsCell = active && active.decimal_odds
+          ? `${money(active.decimal_odds)}x`
+          : '<span class="muted">—</span>';
         users.insertAdjacentHTML('beforeend', `
           <tr onclick="location.href='${href}'">
-            <td data-label="User"><b>${text(user.nickname)}</b><div class="muted">${text(user.tiktok_id)}</div></td>
-            <td data-label="Emoji">${text(bet.emoji)}</td>
-            <td data-label="Highest bid" class="amount">$${money(user.highest_bid)}</td>
-            <td data-label="Odds">${bet.decimal_odds ? `${money(bet.decimal_odds)}x` : 'Not available'}</td>
-            <td data-label="Potential payout">$${money(bet.potential_payout)}</td>
-            <td data-label="Balance">$${money(user.balance)}</td>
+            <td data-label="Player"><b>${text(user.nickname)}</b><div class="muted">${text(user.tiktok_id)}</div></td>
+            <td data-label="Active bet">${activeBetCell}</td>
+            <td data-label="Amount">${activeAmountCell}</td>
+            <td data-label="Odds">${activeOddsCell}</td>
+            <td data-label="Last settlement">${settlementCell(settled)}</td>
+            <td data-label="Balance"><b>${money(user.balance)} coins</b></td>
           </tr>
         `);
       });
       renderedUsers += next.length;
-      if (!users.innerHTML) users.innerHTML = '<tr><td colspan="6"><div class="empty">No bettors found.</div></td></tr>';
+      if (!users.innerHTML) users.innerHTML = '<tr><td colspan="6"><div class="empty">No players found.</div></td></tr>';
     }
 
     function setupLazyUsers() {

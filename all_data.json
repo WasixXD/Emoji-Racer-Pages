@@ -1,58 +1,59 @@
 {
-  "generated_at": "2026-04-22T19:41:09.887735+00:00",
-  "current_race": {
-    "id": "b1ab1078-6808-4922-9b8e-5d4a21540853",
-    "race_id": "race_1776816708",
+  "generated_at": "2026-04-23T01:02:19.826793+00:00",
+  "latest_race": {
+    "id": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
+    "race_id": "race_1776903349",
     "title": "Emoji Grand Prix",
-    "winner_emoji": "🦁",
-    "winner_name": "Leão Real",
-    "created_at": "2026-04-22T00:14:35.588512+00:00",
-    "tiktok_video_id": "7631370069083245842",
-    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7631370069083245842",
+    "winner_emoji": "🐷",
+    "winner_name": "PIG",
+    "created_at": "2026-04-23T00:31:13.514907+00:00",
+    "settled_at": null,
+    "tiktok_video_id": "7631745359332543752",
+    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7631745359332543752",
     "metadata": {
       "title": "Emoji Grand Prix",
-      "race_id": "race_1776816708",
+      "race_id": "race_1776903349",
       "results": [
         {
-          "name": "Leão Real",
-          "emoji": "🦁",
-          "frame": 945,
+          "name": "PIG",
+          "emoji": "🐷",
+          "frame": 1088,
           "place": 1
         },
         {
-          "name": "Cavalo Selvagem",
-          "emoji": "🐴",
-          "frame": 980,
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "frame": 1095,
           "place": 2
         },
         {
-          "name": "Tigre Rugido",
-          "emoji": "🐯",
-          "frame": 982,
+          "name": "TURTLE",
+          "emoji": "🐢",
+          "frame": 1154,
           "place": 3
         },
         {
-          "name": "Cão Turbinado",
+          "name": "DOG",
           "emoji": "🐶",
-          "frame": 1062,
+          "frame": 1208,
           "place": 4
         },
         {
-          "name": "Lobo Sombrio",
-          "emoji": "🐺",
-          "frame": 1198,
+          "name": "TIGER",
+          "emoji": "🐯",
+          "frame": 1259,
           "place": 5
         },
         {
-          "name": "Raposa Veloz",
-          "emoji": "🦊",
-          "frame": 1207,
+          "name": "WOLF",
+          "emoji": "🐺",
+          "frame": 1327,
           "place": 6
         },
         {
-          "name": "Sapo Voador",
-          "emoji": "🐸",
-          "frame": 1315,
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "frame": 1396,
           "place": 7
         }
       ],
@@ -62,115 +63,352 @@
         "image_width": 1080,
         "image_height": 1920
       },
-      "timestamp": "2026-04-22T00:11:54Z",
+      "timestamp": "2026-04-23T00:26:08Z",
       "participants": [
         {
-          "name": "Tigre Rugido",
+          "name": "TIGER",
           "emoji": "🐯",
-          "speed": 90,
+          "speed": 73,
           "breath": 50,
-          "weight": 80
+          "weight": 50
         },
         {
-          "name": "Leão Real",
-          "emoji": "🦁",
-          "speed": 80,
+          "name": "PIG",
+          "emoji": "🐷",
+          "speed": 60,
           "breath": 75,
           "weight": 90
         },
         {
-          "name": "Raposa Veloz",
-          "emoji": "🦊",
-          "speed": 85,
-          "breath": 60,
-          "weight": 45
-        },
-        {
-          "name": "Cavalo Selvagem",
-          "emoji": "🐴",
-          "speed": 75,
-          "breath": 80,
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "speed": 80,
+          "breath": 20,
           "weight": 60
         },
         {
-          "name": "Lobo Sombrio",
-          "emoji": "🐺",
+          "name": "DOLPHIN",
+          "emoji": "🐬",
           "speed": 70,
-          "breath": 85,
-          "weight": 55
+          "breath": 60,
+          "weight": 60
         },
         {
-          "name": "Cão Turbinado",
+          "name": "WOLF",
+          "emoji": "🐺",
+          "speed": 60,
+          "breath": 65,
+          "weight": 50
+        },
+        {
+          "name": "DOG",
           "emoji": "🐶",
-          "speed": 65,
-          "breath": 90,
+          "speed": 70,
+          "breath": 60,
           "weight": 40
         },
         {
-          "name": "Sapo Voador",
-          "emoji": "🐸",
+          "name": "TURTLE",
+          "emoji": "🐢",
           "speed": 50,
-          "breath": 70,
-          "weight": 30
+          "breath": 99,
+          "weight": 60
         }
       ],
-      "total_frames": 1315
+      "total_frames": 1396
+    }
+  },
+  "current_race": {
+    "id": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
+    "race_id": "race_1776903349",
+    "title": "Emoji Grand Prix",
+    "winner_emoji": "🐷",
+    "winner_name": "PIG",
+    "created_at": "2026-04-23T00:31:13.514907+00:00",
+    "settled_at": null,
+    "tiktok_video_id": "7631745359332543752",
+    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7631745359332543752",
+    "metadata": {
+      "title": "Emoji Grand Prix",
+      "race_id": "race_1776903349",
+      "results": [
+        {
+          "name": "PIG",
+          "emoji": "🐷",
+          "frame": 1088,
+          "place": 1
+        },
+        {
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "frame": 1095,
+          "place": 2
+        },
+        {
+          "name": "TURTLE",
+          "emoji": "🐢",
+          "frame": 1154,
+          "place": 3
+        },
+        {
+          "name": "DOG",
+          "emoji": "🐶",
+          "frame": 1208,
+          "place": 4
+        },
+        {
+          "name": "TIGER",
+          "emoji": "🐯",
+          "frame": 1259,
+          "place": 5
+        },
+        {
+          "name": "WOLF",
+          "emoji": "🐺",
+          "frame": 1327,
+          "place": 6
+        },
+        {
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "frame": 1396,
+          "place": 7
+        }
+      ],
+      "settings": {
+        "framerate": 60,
+        "emoji_size": 120,
+        "image_width": 1080,
+        "image_height": 1920
+      },
+      "timestamp": "2026-04-23T00:26:08Z",
+      "participants": [
+        {
+          "name": "TIGER",
+          "emoji": "🐯",
+          "speed": 73,
+          "breath": 50,
+          "weight": 50
+        },
+        {
+          "name": "PIG",
+          "emoji": "🐷",
+          "speed": 60,
+          "breath": 75,
+          "weight": 90
+        },
+        {
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "speed": 80,
+          "breath": 20,
+          "weight": 60
+        },
+        {
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "speed": 70,
+          "breath": 60,
+          "weight": 60
+        },
+        {
+          "name": "WOLF",
+          "emoji": "🐺",
+          "speed": 60,
+          "breath": 65,
+          "weight": 50
+        },
+        {
+          "name": "DOG",
+          "emoji": "🐶",
+          "speed": 70,
+          "breath": 60,
+          "weight": 40
+        },
+        {
+          "name": "TURTLE",
+          "emoji": "🐢",
+          "speed": 50,
+          "breath": 99,
+          "weight": 60
+        }
+      ],
+      "total_frames": 1396
+    }
+  },
+  "open_race": {
+    "id": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
+    "race_id": "race_1776903349",
+    "title": "Emoji Grand Prix",
+    "winner_emoji": "🐷",
+    "winner_name": "PIG",
+    "created_at": "2026-04-23T00:31:13.514907+00:00",
+    "settled_at": null,
+    "tiktok_video_id": "7631745359332543752",
+    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7631745359332543752",
+    "metadata": {
+      "title": "Emoji Grand Prix",
+      "race_id": "race_1776903349",
+      "results": [
+        {
+          "name": "PIG",
+          "emoji": "🐷",
+          "frame": 1088,
+          "place": 1
+        },
+        {
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "frame": 1095,
+          "place": 2
+        },
+        {
+          "name": "TURTLE",
+          "emoji": "🐢",
+          "frame": 1154,
+          "place": 3
+        },
+        {
+          "name": "DOG",
+          "emoji": "🐶",
+          "frame": 1208,
+          "place": 4
+        },
+        {
+          "name": "TIGER",
+          "emoji": "🐯",
+          "frame": 1259,
+          "place": 5
+        },
+        {
+          "name": "WOLF",
+          "emoji": "🐺",
+          "frame": 1327,
+          "place": 6
+        },
+        {
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "frame": 1396,
+          "place": 7
+        }
+      ],
+      "settings": {
+        "framerate": 60,
+        "emoji_size": 120,
+        "image_width": 1080,
+        "image_height": 1920
+      },
+      "timestamp": "2026-04-23T00:26:08Z",
+      "participants": [
+        {
+          "name": "TIGER",
+          "emoji": "🐯",
+          "speed": 73,
+          "breath": 50,
+          "weight": 50
+        },
+        {
+          "name": "PIG",
+          "emoji": "🐷",
+          "speed": 60,
+          "breath": 75,
+          "weight": 90
+        },
+        {
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "speed": 80,
+          "breath": 20,
+          "weight": 60
+        },
+        {
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "speed": 70,
+          "breath": 60,
+          "weight": 60
+        },
+        {
+          "name": "WOLF",
+          "emoji": "🐺",
+          "speed": 60,
+          "breath": 65,
+          "weight": 50
+        },
+        {
+          "name": "DOG",
+          "emoji": "🐶",
+          "speed": 70,
+          "breath": 60,
+          "weight": 40
+        },
+        {
+          "name": "TURTLE",
+          "emoji": "🐢",
+          "speed": 50,
+          "breath": 99,
+          "weight": 60
+        }
+      ],
+      "total_frames": 1396
     }
   },
   "races": [
     {
-      "id": "b1ab1078-6808-4922-9b8e-5d4a21540853",
-      "race_id": "race_1776816708",
+      "id": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
+      "race_id": "race_1776903349",
       "title": "Emoji Grand Prix",
-      "winner_emoji": "🦁",
-      "winner_name": "Leão Real",
-      "created_at": "2026-04-22T00:14:35.588512+00:00",
-      "tiktok_video_id": "7631370069083245842",
-      "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7631370069083245842",
+      "winner_emoji": "🐷",
+      "winner_name": "PIG",
+      "created_at": "2026-04-23T00:31:13.514907+00:00",
+      "settled_at": null,
+      "tiktok_video_id": "7631745359332543752",
+      "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7631745359332543752",
       "metadata": {
         "title": "Emoji Grand Prix",
-        "race_id": "race_1776816708",
+        "race_id": "race_1776903349",
         "results": [
           {
-            "name": "Leão Real",
-            "emoji": "🦁",
-            "frame": 945,
+            "name": "PIG",
+            "emoji": "🐷",
+            "frame": 1088,
             "place": 1
           },
           {
-            "name": "Cavalo Selvagem",
-            "emoji": "🐴",
-            "frame": 980,
+            "name": "DOLPHIN",
+            "emoji": "🐬",
+            "frame": 1095,
             "place": 2
           },
           {
-            "name": "Tigre Rugido",
-            "emoji": "🐯",
-            "frame": 982,
+            "name": "TURTLE",
+            "emoji": "🐢",
+            "frame": 1154,
             "place": 3
           },
           {
-            "name": "Cão Turbinado",
+            "name": "DOG",
             "emoji": "🐶",
-            "frame": 1062,
+            "frame": 1208,
             "place": 4
           },
           {
-            "name": "Lobo Sombrio",
-            "emoji": "🐺",
-            "frame": 1198,
+            "name": "TIGER",
+            "emoji": "🐯",
+            "frame": 1259,
             "place": 5
           },
           {
-            "name": "Raposa Veloz",
-            "emoji": "🦊",
-            "frame": 1207,
+            "name": "WOLF",
+            "emoji": "🐺",
+            "frame": 1327,
             "place": 6
           },
           {
-            "name": "Sapo Voador",
-            "emoji": "🐸",
-            "frame": 1315,
+            "name": "DRAGON",
+            "emoji": "🐉",
+            "frame": 1396,
             "place": 7
           }
         ],
@@ -180,383 +418,146 @@
           "image_width": 1080,
           "image_height": 1920
         },
-        "timestamp": "2026-04-22T00:11:54Z",
+        "timestamp": "2026-04-23T00:26:08Z",
         "participants": [
           {
-            "name": "Tigre Rugido",
+            "name": "TIGER",
             "emoji": "🐯",
-            "speed": 90,
+            "speed": 73,
             "breath": 50,
-            "weight": 80
+            "weight": 50
           },
           {
-            "name": "Leão Real",
-            "emoji": "🦁",
-            "speed": 80,
+            "name": "PIG",
+            "emoji": "🐷",
+            "speed": 60,
             "breath": 75,
             "weight": 90
           },
           {
-            "name": "Raposa Veloz",
-            "emoji": "🦊",
-            "speed": 85,
-            "breath": 60,
-            "weight": 45
-          },
-          {
-            "name": "Cavalo Selvagem",
-            "emoji": "🐴",
-            "speed": 75,
-            "breath": 80,
-            "weight": 60
-          },
-          {
-            "name": "Lobo Sombrio",
-            "emoji": "🐺",
-            "speed": 70,
-            "breath": 85,
-            "weight": 55
-          },
-          {
-            "name": "Cão Turbinado",
-            "emoji": "🐶",
-            "speed": 65,
-            "breath": 90,
-            "weight": 40
-          },
-          {
-            "name": "Sapo Voador",
-            "emoji": "🐸",
-            "speed": 50,
-            "breath": 70,
-            "weight": 30
-          }
-        ],
-        "total_frames": 1315
-      }
-    },
-    {
-      "id": "5f79bc19-dd8a-4bd5-bcd9-b7fc8088b9dd",
-      "race_id": "race_1776814875",
-      "title": "Emoji Grand Prix",
-      "winner_emoji": "🦁",
-      "winner_name": "Leão Real",
-      "created_at": "2026-04-21T23:52:24.644699+00:00",
-      "tiktok_video_id": "7631362009602297095",
-      "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7631362009602297095",
-      "metadata": {
-        "title": "Emoji Grand Prix",
-        "race_id": "race_1776814875",
-        "results": [
-          {
-            "name": "Leão Real",
-            "emoji": "🦁",
-            "frame": 903,
-            "place": 1
-          },
-          {
-            "name": "Tigre Rugido",
-            "emoji": "🐯",
-            "frame": 957,
-            "place": 2
-          },
-          {
-            "name": "Raposa Veloz",
-            "emoji": "🦊",
-            "frame": 1052,
-            "place": 3
-          },
-          {
-            "name": "Lobo Sombrio",
-            "emoji": "🐺",
-            "frame": 1097,
-            "place": 4
-          },
-          {
-            "name": "Cão Turbinado",
-            "emoji": "🐶",
-            "frame": 1110,
-            "place": 5
-          },
-          {
-            "name": "Cavalo Selvagem",
-            "emoji": "🐴",
-            "frame": 1126,
-            "place": 6
-          },
-          {
-            "name": "Sapo Voador",
-            "emoji": "🐸",
-            "frame": 1206,
-            "place": 7
-          }
-        ],
-        "settings": {
-          "framerate": 60,
-          "emoji_size": 120,
-          "image_width": 1080,
-          "image_height": 1920
-        },
-        "timestamp": "2026-04-21T23:41:16Z",
-        "participants": [
-          {
-            "name": "Tigre Rugido",
-            "emoji": "🐯",
-            "speed": 90,
-            "breath": 50,
-            "weight": 80
-          },
-          {
-            "name": "Leão Real",
-            "emoji": "🦁",
+            "name": "DRAGON",
+            "emoji": "🐉",
             "speed": 80,
-            "breath": 75,
-            "weight": 90
-          },
-          {
-            "name": "Raposa Veloz",
-            "emoji": "🦊",
-            "speed": 85,
-            "breath": 60,
-            "weight": 45
-          },
-          {
-            "name": "Cavalo Selvagem",
-            "emoji": "🐴",
-            "speed": 75,
-            "breath": 80,
+            "breath": 20,
             "weight": 60
           },
           {
-            "name": "Lobo Sombrio",
-            "emoji": "🐺",
+            "name": "DOLPHIN",
+            "emoji": "🐬",
             "speed": 70,
-            "breath": 85,
-            "weight": 55
-          },
-          {
-            "name": "Cão Turbinado",
-            "emoji": "🐶",
-            "speed": 65,
-            "breath": 90,
-            "weight": 40
-          },
-          {
-            "name": "Sapo Voador",
-            "emoji": "🐸",
-            "speed": 50,
-            "breath": 70,
-            "weight": 30
-          }
-        ],
-        "total_frames": 1206
-      }
-    },
-    {
-      "id": "119d7f67-33b4-4bd4-b180-7da37ad1d47c",
-      "race_id": "race_1776810910",
-      "title": "Emoji Grand Prix",
-      "winner_emoji": "🦊",
-      "winner_name": "Raposa Veloz",
-      "created_at": "2026-04-21T22:35:57.411813+00:00",
-      "tiktok_video_id": null,
-      "tiktok_video_url": null,
-      "metadata": {
-        "title": "Emoji Grand Prix",
-        "race_id": "race_1776810910",
-        "results": [
-          {
-            "name": "Raposa Veloz",
-            "emoji": "🦊",
-            "frame": 958,
-            "place": 1
-          },
-          {
-            "name": "Leão Real",
-            "emoji": "🦁",
-            "frame": 960,
-            "place": 2
-          },
-          {
-            "name": "Lobo Sombrio",
-            "emoji": "🐺",
-            "frame": 971,
-            "place": 3
-          },
-          {
-            "name": "Cavalo Selvagem",
-            "emoji": "🐴",
-            "frame": 995,
-            "place": 4
-          },
-          {
-            "name": "Tigre Rugido",
-            "emoji": "🐯",
-            "frame": 1034,
-            "place": 5
-          },
-          {
-            "name": "Cão Turbinado",
-            "emoji": "🐶",
-            "frame": 1152,
-            "place": 6
-          },
-          {
-            "name": "Sapo Voador",
-            "emoji": "🐸",
-            "frame": 1246,
-            "place": 7
-          }
-        ],
-        "settings": {
-          "framerate": 60,
-          "emoji_size": 120,
-          "image_width": 1080,
-          "image_height": 1920
-        },
-        "timestamp": "2026-04-21T22:35:13Z",
-        "participants": [
-          {
-            "name": "Tigre Rugido",
-            "emoji": "🐯",
-            "speed": 90,
-            "breath": 50,
-            "weight": 80
-          },
-          {
-            "name": "Leão Real",
-            "emoji": "🦁",
-            "speed": 80,
-            "breath": 75,
-            "weight": 90
-          },
-          {
-            "name": "Raposa Veloz",
-            "emoji": "🦊",
-            "speed": 85,
             "breath": 60,
-            "weight": 45
-          },
-          {
-            "name": "Cavalo Selvagem",
-            "emoji": "🐴",
-            "speed": 75,
-            "breath": 80,
             "weight": 60
           },
           {
-            "name": "Lobo Sombrio",
+            "name": "WOLF",
             "emoji": "🐺",
-            "speed": 70,
-            "breath": 85,
-            "weight": 55
+            "speed": 60,
+            "breath": 65,
+            "weight": 50
           },
           {
-            "name": "Cão Turbinado",
+            "name": "DOG",
             "emoji": "🐶",
-            "speed": 65,
-            "breath": 90,
+            "speed": 70,
+            "breath": 60,
             "weight": 40
           },
           {
-            "name": "Sapo Voador",
-            "emoji": "🐸",
+            "name": "TURTLE",
+            "emoji": "🐢",
             "speed": 50,
-            "breath": 70,
-            "weight": 30
+            "breath": 99,
+            "weight": 60
           }
         ],
-        "total_frames": 1246
+        "total_frames": 1396
       }
     }
   ],
   "emoji_victories": [
     {
-      "emoji": "🦁",
-      "wins": 2
-    },
-    {
-      "emoji": "🦊",
+      "emoji": "🐷",
       "wins": 1
     }
   ],
   "emoji_performance": [
     {
-      "emoji": "🦁",
-      "races": 3,
-      "wins": 2,
-      "average_place": 1.33,
-      "enemy_emoji": "🦊",
+      "emoji": "🐷",
+      "races": 1,
+      "wins": 1,
+      "average_place": 1.0,
+      "enemy_emoji": null,
+      "enemy_losses": 0
+    },
+    {
+      "emoji": "🐬",
+      "races": 1,
+      "wins": 0,
+      "average_place": 2.0,
+      "enemy_emoji": "🐷",
       "enemy_losses": 1
     },
     {
-      "emoji": "🦊",
-      "races": 3,
-      "wins": 1,
-      "average_place": 3.33,
-      "enemy_emoji": "🦁",
-      "enemy_losses": 2
-    },
-    {
-      "emoji": "🐯",
-      "races": 3,
+      "emoji": "🐢",
+      "races": 1,
       "wins": 0,
-      "average_place": 3.33,
-      "enemy_emoji": "🦁",
-      "enemy_losses": 2
-    },
-    {
-      "emoji": "🐴",
-      "races": 3,
-      "wins": 0,
-      "average_place": 4.0,
-      "enemy_emoji": "🦁",
-      "enemy_losses": 2
-    },
-    {
-      "emoji": "🐺",
-      "races": 3,
-      "wins": 0,
-      "average_place": 4.0,
-      "enemy_emoji": "🦁",
-      "enemy_losses": 2
+      "average_place": 3.0,
+      "enemy_emoji": "🐷",
+      "enemy_losses": 1
     },
     {
       "emoji": "🐶",
-      "races": 3,
+      "races": 1,
       "wins": 0,
-      "average_place": 5.0,
-      "enemy_emoji": "🦁",
-      "enemy_losses": 2
+      "average_place": 4.0,
+      "enemy_emoji": "🐷",
+      "enemy_losses": 1
     },
     {
-      "emoji": "🐸",
-      "races": 3,
+      "emoji": "🐯",
+      "races": 1,
+      "wins": 0,
+      "average_place": 5.0,
+      "enemy_emoji": "🐷",
+      "enemy_losses": 1
+    },
+    {
+      "emoji": "🐺",
+      "races": 1,
+      "wins": 0,
+      "average_place": 6.0,
+      "enemy_emoji": "🐷",
+      "enemy_losses": 1
+    },
+    {
+      "emoji": "🐉",
+      "races": 1,
       "wins": 0,
       "average_place": 7.0,
-      "enemy_emoji": "🦁",
-      "enemy_losses": 2
+      "enemy_emoji": "🐷",
+      "enemy_losses": 1
     }
   ],
   "current_odds": [
     {
-      "emoji": "🐴",
-      "total_amount": 30.0,
+      "emoji": "🐬",
+      "total_amount": 25.0,
       "bettors": 1,
       "pool_share": 1.0,
       "decimal_odds": 1.0,
-      "example_payout": 30.0
+      "example_payout": 25.0
     }
   ],
+  "betting_open": true,
   "summary": {
-    "total_races": 3,
+    "total_races": 1,
     "total_users": 1,
     "total_bids": 1,
-    "total_bid_amount": 30.0,
-    "average_bid": 30.0,
-    "next_race_bids": 1,
-    "next_race_bid_amount": 30.0,
-    "next_race_average_bid": 30.0
+    "total_bid_amount": 25.0,
+    "average_bid": 25.0,
+    "active_race_bids": 1,
+    "active_race_amount": 25.0,
+    "active_race_avg_bid": 25.0
   },
   "users": [
     {
@@ -567,35 +568,61 @@
       "created_at": "2026-04-22T00:45:48.242723+00:00",
       "bets": [
         {
-          "id": "7e2471e1-2a14-4280-b31c-68e4d2f0b20b",
-          "race_uuid": "b1ab1078-6808-4922-9b8e-5d4a21540853",
-          "race_id": "race_1776816708",
-          "emoji": "🐴",
-          "amount": 30.0,
+          "id": "482cb47f-a5eb-4ecd-9488-84656b0d2ea8",
+          "race_uuid": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
+          "race_id": "race_1776903349",
+          "emoji": "🐬",
+          "amount": 25.0,
+          "payout": null,
+          "status": "open",
+          "settled_at": null,
           "decimal_odds": 1.0,
-          "potential_payout": 30.0,
-          "source_comment_id": "7631370543527346965",
-          "source_comment_text": "bet 30 🐴",
-          "source_created_at_tiktok": "2026-04-22T00:15:46+00:00",
-          "created_at": "2026-04-22T00:45:48.242723+00:00",
-          "updated_at": "2026-04-22T00:45:48.242723+00:00"
+          "potential_payout": 25.0,
+          "source_comment_id": "7631746191172354837",
+          "source_comment_text": "bet 25 🐬",
+          "source_created_at_tiktok": "2026-04-23T00:33:36+00:00",
+          "created_at": "2026-04-23T01:02:12.208647+00:00",
+          "updated_at": "2026-04-23T01:02:12.208647+00:00"
         }
       ],
-      "next_bet": {
-        "id": "7e2471e1-2a14-4280-b31c-68e4d2f0b20b",
-        "race_uuid": "b1ab1078-6808-4922-9b8e-5d4a21540853",
-        "race_id": "race_1776816708",
-        "emoji": "🐴",
-        "amount": 30.0,
+      "active_bet": {
+        "id": "482cb47f-a5eb-4ecd-9488-84656b0d2ea8",
+        "race_uuid": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
+        "race_id": "race_1776903349",
+        "emoji": "🐬",
+        "amount": 25.0,
+        "payout": null,
+        "status": "open",
+        "settled_at": null,
         "decimal_odds": 1.0,
-        "potential_payout": 30.0,
-        "source_comment_id": "7631370543527346965",
-        "source_comment_text": "bet 30 🐴",
-        "source_created_at_tiktok": "2026-04-22T00:15:46+00:00",
-        "created_at": "2026-04-22T00:45:48.242723+00:00",
-        "updated_at": "2026-04-22T00:45:48.242723+00:00"
+        "potential_payout": 25.0,
+        "source_comment_id": "7631746191172354837",
+        "source_comment_text": "bet 25 🐬",
+        "source_created_at_tiktok": "2026-04-23T00:33:36+00:00",
+        "created_at": "2026-04-23T01:02:12.208647+00:00",
+        "updated_at": "2026-04-23T01:02:12.208647+00:00"
       },
-      "highest_bid": 30.0
+      "next_bet": {
+        "id": "482cb47f-a5eb-4ecd-9488-84656b0d2ea8",
+        "race_uuid": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
+        "race_id": "race_1776903349",
+        "emoji": "🐬",
+        "amount": 25.0,
+        "payout": null,
+        "status": "open",
+        "settled_at": null,
+        "decimal_odds": 1.0,
+        "potential_payout": 25.0,
+        "source_comment_id": "7631746191172354837",
+        "source_comment_text": "bet 25 🐬",
+        "source_created_at_tiktok": "2026-04-23T00:33:36+00:00",
+        "created_at": "2026-04-23T01:02:12.208647+00:00",
+        "updated_at": "2026-04-23T01:02:12.208647+00:00"
+      },
+      "highest_bid": 25.0,
+      "total_won": 0.0,
+      "total_lost": 0.0,
+      "net_profit": 0.0
     }
   ]
 }
