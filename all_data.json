@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T20:14:38.137164+00:00",
+  "generated_at": "2026-04-28T14:30:56.579159+00:00",
   "latest_race": {
     "id": "fd42bf0d-22c1-440d-ab0e-c572d5d543be",
     "race_id": "race_1776903349",
@@ -502,7 +502,7 @@
       "races": 1,
       "wins": 0,
       "average_place": 3.0,
-      "enemy_emoji": "🐷",
+      "enemy_emoji": "🐬",
       "enemy_losses": 1
     },
     {
@@ -510,7 +510,7 @@
       "races": 1,
       "wins": 0,
       "average_place": 4.0,
-      "enemy_emoji": "🐷",
+      "enemy_emoji": "🐢",
       "enemy_losses": 1
     },
     {
@@ -518,7 +518,7 @@
       "races": 1,
       "wins": 0,
       "average_place": 5.0,
-      "enemy_emoji": "🐷",
+      "enemy_emoji": "🐶",
       "enemy_losses": 1
     },
     {
@@ -526,7 +526,7 @@
       "races": 1,
       "wins": 0,
       "average_place": 6.0,
-      "enemy_emoji": "🐷",
+      "enemy_emoji": "🐯",
       "enemy_losses": 1
     },
     {
@@ -534,7 +534,7 @@
       "races": 1,
       "wins": 0,
       "average_place": 7.0,
-      "enemy_emoji": "🐷",
+      "enemy_emoji": "🐺",
       "enemy_losses": 1
     }
   ],
@@ -543,9 +543,57 @@
       "emoji": "🐬",
       "total_amount": 25.0,
       "bettors": 1,
-      "pool_share": 1.0,
-      "decimal_odds": 1.0,
-      "example_payout": 25.0
+      "pool_share": 0.2,
+      "decimal_odds": 5.0,
+      "example_payout": 125.0
+    },
+    {
+      "emoji": "🐉",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1333,
+      "decimal_odds": 7.5,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐢",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1333,
+      "decimal_odds": 7.5,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐯",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1333,
+      "decimal_odds": 7.5,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐶",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1333,
+      "decimal_odds": 7.5,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐷",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1333,
+      "decimal_odds": 7.5,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐺",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1333,
+      "decimal_odds": 7.5,
+      "example_payout": 0.0
     }
   ],
   "betting_open": true,
