@@ -205,6 +205,7 @@
     .bet-won  { color: var(--green); font-weight: 850; }
     .bet-lost { color: var(--red); }
     .bet-open { color: var(--hot); }
+    .bet-type { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted, #888); }
     @media (max-width: 850px) {
       .hero, .grid { grid-template-columns: 1fr; }
       .odds-metrics { grid-template-columns: 1fr; }
@@ -330,6 +331,7 @@
             <tr>
               <th>Player</th>
               <th>Active bet</th>
+              <th>Type</th>
               <th>Amount</th>
               <th>Odds</th>
               <th>Last settlement</th>
@@ -527,7 +529,7 @@
         if (!oddsEl.innerHTML) oddsEl.innerHTML = '<div class="empty">No bets placed yet. Be the first!</div>';
       }
 
-      allUsers = [...(data.users || [])].sort((a, b) => Number(b.highest_bid || 0) - Number(a.highest_bid || 0));
+      allUsers = [...(data.users || [])].sort((a, b) => Number(b.active_bet?.amount || 0) - Number(a.active_bet?.amount || 0));
       applyUserFilter();
     }
 
@@ -585,6 +587,14 @@
       return '<span class="muted">—</span>';
     }
 
+    function betType(bet) {
+      if (!bet) return '<span class="muted">—</span>';
+      const txt = (bet.source_comment_text || '').trim().toLowerCase();
+      if (txt.startsWith('exacta')) return '<span class="bet-type">exacta</span>';
+      if (txt.startsWith('podium')) return '<span class="bet-type">podium</span>';
+      return '<span class="bet-type">bet</span>';
+    }
+
     function renderNextUserBatch() {
       const users = document.getElementById('users');
       const next = visibleUsers.slice(renderedUsers, renderedUsers + PAGE_SIZE);
@@ -605,6 +615,7 @@
           <tr onclick="location.href='${href}'">
             <td data-label="Player"><b>${text(user.nickname)}</b><div class="muted">${text(user.tiktok_id)}</div></td>
             <td data-label="Active bet">${activeBetCell}</td>
+            <td data-label="Type">${betType(active)}</td>
             <td data-label="Amount">${activeAmountCell}</td>
             <td data-label="Odds">${activeOddsCell}</td>
             <td data-label="Last settlement">${settlementCell(settled)}</td>
@@ -613,7 +624,7 @@
         `);
       });
       renderedUsers += next.length;
-      if (!users.innerHTML) users.innerHTML = '<tr><td colspan="6"><div class="empty">No players found.</div></td></tr>';
+      if (!users.innerHTML) users.innerHTML = '<tr><td colspan="7"><div class="empty">No players found.</div></td></tr>';
     }
 
     function setupLazyUsers() {
