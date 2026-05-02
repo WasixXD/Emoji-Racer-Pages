@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-05-02T00:01:52.902090+00:00",
+  "generated_at": "2026-05-02T00:10:07.951426+00:00",
   "latest_race": {
-    "id": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-    "race_id": "race_1777598329",
+    "id": "87bb3f11-ac37-4aa8-98ef-88aa0650b3c5",
+    "race_id": "race_1777680179",
     "title": "Emoji Grand Prix",
-    "winner_emoji": "🐺",
-    "winner_name": "WOLF",
-    "created_at": "2026-05-01T01:23:52.833018+00:00",
+    "winner_emoji": "🐬",
+    "winner_name": "DOLPHIN",
+    "created_at": "2026-05-02T00:10:07.885229+00:00",
     "settled_at": null,
-    "tiktok_video_id": "7634727535770717460",
-    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7634727535770717460",
+    "tiktok_video_id": "7635079576539991317",
+    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7635079576539991317",
     "metadata": {
       "title": "Emoji Grand Prix",
-      "race_id": "race_1777598329",
+      "race_id": "race_1777680179",
       "results": [
         {
-          "name": "WOLF",
-          "emoji": "🐺",
-          "frame": 843,
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "frame": 830,
           "place": 1
         },
         {
           "name": "PIG",
           "emoji": "🐷",
-          "frame": 867,
+          "frame": 924,
           "place": 2
         },
         {
-          "name": "DOG",
-          "emoji": "🐶",
-          "frame": 915,
+          "name": "WOLF",
+          "emoji": "🐺",
+          "frame": 958,
           "place": 3
-        },
-        {
-          "name": "DRAGON",
-          "emoji": "🐉",
-          "frame": 929,
-          "place": 4
-        },
-        {
-          "name": "TIGER",
-          "emoji": "🐯",
-          "frame": 1000,
-          "place": 5
-        },
-        {
-          "name": "DOLPHIN",
-          "emoji": "🐬",
-          "frame": 1035,
-          "place": 6
         },
         {
           "name": "TURTLE",
           "emoji": "🐢",
-          "frame": 1082,
+          "frame": 1014,
+          "place": 4
+        },
+        {
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "frame": 1064,
+          "place": 5
+        },
+        {
+          "name": "DOG",
+          "emoji": "🐶",
+          "frame": 1121,
+          "place": 6
+        },
+        {
+          "name": "TIGER",
+          "emoji": "🐯",
+          "frame": 1177,
           "place": 7
         }
       ],
@@ -63,7 +63,7 @@
         "image_width": 1080,
         "image_height": 1920
       },
-      "timestamp": "2026-05-01T01:18:50Z",
+      "timestamp": "2026-05-02T00:03:00Z",
       "participants": [
         {
           "name": "TIGER",
@@ -79,7 +79,7 @@
           "speed": 60,
           "breath": 65,
           "weight": 85,
-          "enemy_emoji": "🐉"
+          "enemy_emoji": "🐺"
         },
         {
           "name": "DRAGON",
@@ -87,7 +87,7 @@
           "speed": 76,
           "breath": 43,
           "weight": 60,
-          "enemy_emoji": "🐯"
+          "enemy_emoji": "🐶"
         },
         {
           "name": "DOLPHIN",
@@ -101,7 +101,7 @@
           "name": "WOLF",
           "emoji": "🐺",
           "speed": 65,
-          "breath": 64,
+          "breath": 60,
           "weight": 49,
           "enemy_emoji": "🐬"
         },
@@ -122,63 +122,63 @@
           "enemy_emoji": "🐺"
         }
       ],
-      "total_frames": 1082
+      "total_frames": 1177
     }
   },
   "current_race": {
-    "id": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-    "race_id": "race_1777598329",
+    "id": "87bb3f11-ac37-4aa8-98ef-88aa0650b3c5",
+    "race_id": "race_1777680179",
     "title": "Emoji Grand Prix",
-    "winner_emoji": "🐺",
-    "winner_name": "WOLF",
-    "created_at": "2026-05-01T01:23:52.833018+00:00",
+    "winner_emoji": "🐬",
+    "winner_name": "DOLPHIN",
+    "created_at": "2026-05-02T00:10:07.885229+00:00",
     "settled_at": null,
-    "tiktok_video_id": "7634727535770717460",
-    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7634727535770717460",
+    "tiktok_video_id": "7635079576539991317",
+    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7635079576539991317",
     "metadata": {
       "title": "Emoji Grand Prix",
-      "race_id": "race_1777598329",
+      "race_id": "race_1777680179",
       "results": [
         {
-          "name": "WOLF",
-          "emoji": "🐺",
-          "frame": 843,
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "frame": 830,
           "place": 1
         },
         {
           "name": "PIG",
           "emoji": "🐷",
-          "frame": 867,
+          "frame": 924,
           "place": 2
         },
         {
-          "name": "DOG",
-          "emoji": "🐶",
-          "frame": 915,
+          "name": "WOLF",
+          "emoji": "🐺",
+          "frame": 958,
           "place": 3
-        },
-        {
-          "name": "DRAGON",
-          "emoji": "🐉",
-          "frame": 929,
-          "place": 4
-        },
-        {
-          "name": "TIGER",
-          "emoji": "🐯",
-          "frame": 1000,
-          "place": 5
-        },
-        {
-          "name": "DOLPHIN",
-          "emoji": "🐬",
-          "frame": 1035,
-          "place": 6
         },
         {
           "name": "TURTLE",
           "emoji": "🐢",
-          "frame": 1082,
+          "frame": 1014,
+          "place": 4
+        },
+        {
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "frame": 1064,
+          "place": 5
+        },
+        {
+          "name": "DOG",
+          "emoji": "🐶",
+          "frame": 1121,
+          "place": 6
+        },
+        {
+          "name": "TIGER",
+          "emoji": "🐯",
+          "frame": 1177,
           "place": 7
         }
       ],
@@ -188,7 +188,7 @@
         "image_width": 1080,
         "image_height": 1920
       },
-      "timestamp": "2026-05-01T01:18:50Z",
+      "timestamp": "2026-05-02T00:03:00Z",
       "participants": [
         {
           "name": "TIGER",
@@ -204,7 +204,7 @@
           "speed": 60,
           "breath": 65,
           "weight": 85,
-          "enemy_emoji": "🐉"
+          "enemy_emoji": "🐺"
         },
         {
           "name": "DRAGON",
@@ -212,7 +212,7 @@
           "speed": 76,
           "breath": 43,
           "weight": 60,
-          "enemy_emoji": "🐯"
+          "enemy_emoji": "🐶"
         },
         {
           "name": "DOLPHIN",
@@ -226,7 +226,7 @@
           "name": "WOLF",
           "emoji": "🐺",
           "speed": 65,
-          "breath": 64,
+          "breath": 60,
           "weight": 49,
           "enemy_emoji": "🐬"
         },
@@ -247,63 +247,63 @@
           "enemy_emoji": "🐺"
         }
       ],
-      "total_frames": 1082
+      "total_frames": 1177
     }
   },
   "open_race": {
-    "id": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-    "race_id": "race_1777598329",
+    "id": "87bb3f11-ac37-4aa8-98ef-88aa0650b3c5",
+    "race_id": "race_1777680179",
     "title": "Emoji Grand Prix",
-    "winner_emoji": "🐺",
-    "winner_name": "WOLF",
-    "created_at": "2026-05-01T01:23:52.833018+00:00",
+    "winner_emoji": "🐬",
+    "winner_name": "DOLPHIN",
+    "created_at": "2026-05-02T00:10:07.885229+00:00",
     "settled_at": null,
-    "tiktok_video_id": "7634727535770717460",
-    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7634727535770717460",
+    "tiktok_video_id": "7635079576539991317",
+    "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7635079576539991317",
     "metadata": {
       "title": "Emoji Grand Prix",
-      "race_id": "race_1777598329",
+      "race_id": "race_1777680179",
       "results": [
         {
-          "name": "WOLF",
-          "emoji": "🐺",
-          "frame": 843,
+          "name": "DOLPHIN",
+          "emoji": "🐬",
+          "frame": 830,
           "place": 1
         },
         {
           "name": "PIG",
           "emoji": "🐷",
-          "frame": 867,
+          "frame": 924,
           "place": 2
         },
         {
-          "name": "DOG",
-          "emoji": "🐶",
-          "frame": 915,
+          "name": "WOLF",
+          "emoji": "🐺",
+          "frame": 958,
           "place": 3
-        },
-        {
-          "name": "DRAGON",
-          "emoji": "🐉",
-          "frame": 929,
-          "place": 4
-        },
-        {
-          "name": "TIGER",
-          "emoji": "🐯",
-          "frame": 1000,
-          "place": 5
-        },
-        {
-          "name": "DOLPHIN",
-          "emoji": "🐬",
-          "frame": 1035,
-          "place": 6
         },
         {
           "name": "TURTLE",
           "emoji": "🐢",
-          "frame": 1082,
+          "frame": 1014,
+          "place": 4
+        },
+        {
+          "name": "DRAGON",
+          "emoji": "🐉",
+          "frame": 1064,
+          "place": 5
+        },
+        {
+          "name": "DOG",
+          "emoji": "🐶",
+          "frame": 1121,
+          "place": 6
+        },
+        {
+          "name": "TIGER",
+          "emoji": "🐯",
+          "frame": 1177,
           "place": 7
         }
       ],
@@ -313,7 +313,7 @@
         "image_width": 1080,
         "image_height": 1920
       },
-      "timestamp": "2026-05-01T01:18:50Z",
+      "timestamp": "2026-05-02T00:03:00Z",
       "participants": [
         {
           "name": "TIGER",
@@ -329,7 +329,7 @@
           "speed": 60,
           "breath": 65,
           "weight": 85,
-          "enemy_emoji": "🐉"
+          "enemy_emoji": "🐺"
         },
         {
           "name": "DRAGON",
@@ -337,7 +337,7 @@
           "speed": 76,
           "breath": 43,
           "weight": 60,
-          "enemy_emoji": "🐯"
+          "enemy_emoji": "🐶"
         },
         {
           "name": "DOLPHIN",
@@ -351,7 +351,7 @@
           "name": "WOLF",
           "emoji": "🐺",
           "speed": 65,
-          "breath": 64,
+          "breath": 60,
           "weight": 49,
           "enemy_emoji": "🐬"
         },
@@ -372,10 +372,135 @@
           "enemy_emoji": "🐺"
         }
       ],
-      "total_frames": 1082
+      "total_frames": 1177
     }
   },
   "races": [
+    {
+      "id": "87bb3f11-ac37-4aa8-98ef-88aa0650b3c5",
+      "race_id": "race_1777680179",
+      "title": "Emoji Grand Prix",
+      "winner_emoji": "🐬",
+      "winner_name": "DOLPHIN",
+      "created_at": "2026-05-02T00:10:07.885229+00:00",
+      "settled_at": null,
+      "tiktok_video_id": "7635079576539991317",
+      "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7635079576539991317",
+      "metadata": {
+        "title": "Emoji Grand Prix",
+        "race_id": "race_1777680179",
+        "results": [
+          {
+            "name": "DOLPHIN",
+            "emoji": "🐬",
+            "frame": 830,
+            "place": 1
+          },
+          {
+            "name": "PIG",
+            "emoji": "🐷",
+            "frame": 924,
+            "place": 2
+          },
+          {
+            "name": "WOLF",
+            "emoji": "🐺",
+            "frame": 958,
+            "place": 3
+          },
+          {
+            "name": "TURTLE",
+            "emoji": "🐢",
+            "frame": 1014,
+            "place": 4
+          },
+          {
+            "name": "DRAGON",
+            "emoji": "🐉",
+            "frame": 1064,
+            "place": 5
+          },
+          {
+            "name": "DOG",
+            "emoji": "🐶",
+            "frame": 1121,
+            "place": 6
+          },
+          {
+            "name": "TIGER",
+            "emoji": "🐯",
+            "frame": 1177,
+            "place": 7
+          }
+        ],
+        "settings": {
+          "framerate": 60,
+          "emoji_size": 120,
+          "image_width": 1080,
+          "image_height": 1920
+        },
+        "timestamp": "2026-05-02T00:03:00Z",
+        "participants": [
+          {
+            "name": "TIGER",
+            "emoji": "🐯",
+            "speed": 70,
+            "breath": 60,
+            "weight": 45,
+            "enemy_emoji": "🐶"
+          },
+          {
+            "name": "PIG",
+            "emoji": "🐷",
+            "speed": 60,
+            "breath": 65,
+            "weight": 85,
+            "enemy_emoji": "🐺"
+          },
+          {
+            "name": "DRAGON",
+            "emoji": "🐉",
+            "speed": 76,
+            "breath": 43,
+            "weight": 60,
+            "enemy_emoji": "🐶"
+          },
+          {
+            "name": "DOLPHIN",
+            "emoji": "🐬",
+            "speed": 65,
+            "breath": 60,
+            "weight": 70,
+            "enemy_emoji": "🐷"
+          },
+          {
+            "name": "WOLF",
+            "emoji": "🐺",
+            "speed": 65,
+            "breath": 60,
+            "weight": 49,
+            "enemy_emoji": "🐬"
+          },
+          {
+            "name": "DOG",
+            "emoji": "🐶",
+            "speed": 72,
+            "breath": 63,
+            "weight": 44,
+            "enemy_emoji": "🐢"
+          },
+          {
+            "name": "TURTLE",
+            "emoji": "🐢",
+            "speed": 50,
+            "breath": 99,
+            "weight": 60,
+            "enemy_emoji": "🐺"
+          }
+        ],
+        "total_frames": 1177
+      }
+    },
     {
       "id": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
       "race_id": "race_1777598329",
@@ -383,7 +508,7 @@
       "winner_emoji": "🐺",
       "winner_name": "WOLF",
       "created_at": "2026-05-01T01:23:52.833018+00:00",
-      "settled_at": null,
+      "settled_at": "2026-05-02T00:10:07.915573+00:00",
       "tiktok_video_id": "7634727535770717460",
       "tiktok_video_url": "https://www.tiktok.com/@emojigrandpix/video/7634727535770717460",
       "metadata": {
@@ -1500,6 +1625,10 @@
       "wins": 2
     },
     {
+      "emoji": "🐬",
+      "wins": 2
+    },
+    {
       "emoji": "🐷",
       "wins": 2
     },
@@ -1509,10 +1638,6 @@
     },
     {
       "emoji": "🐉",
-      "wins": 1
-    },
-    {
-      "emoji": "🐬",
       "wins": 1
     },
     {
@@ -1523,136 +1648,136 @@
   "emoji_performance": [
     {
       "emoji": "🐷",
-      "races": 9,
+      "races": 10,
       "wins": 2,
-      "average_place": 3.22,
-      "enemy_emoji": "🐺",
+      "average_place": 3.1,
+      "enemy_emoji": "🐬",
       "enemy_losses": 2
     },
     {
       "emoji": "🐢",
-      "races": 9,
+      "races": 10,
       "wins": 2,
-      "average_place": 3.33,
+      "average_place": 3.4,
       "enemy_emoji": "🐺",
-      "enemy_losses": 4
+      "enemy_losses": 5
     },
     {
       "emoji": "🐺",
-      "races": 9,
+      "races": 10,
       "wins": 2,
-      "average_place": 3.44,
-      "enemy_emoji": "🐬",
+      "average_place": 3.4,
+      "enemy_emoji": "🐷",
       "enemy_losses": 3
     },
     {
       "emoji": "🐬",
-      "races": 9,
-      "wins": 1,
-      "average_place": 4.0,
+      "races": 10,
+      "wins": 2,
+      "average_place": 3.7,
       "enemy_emoji": "🐷",
       "enemy_losses": 3
     },
     {
       "emoji": "🐶",
-      "races": 9,
+      "races": 10,
       "wins": 0,
-      "average_place": 4.0,
+      "average_place": 4.2,
       "enemy_emoji": "🐢",
       "enemy_losses": 4
     },
     {
       "emoji": "🐯",
-      "races": 9,
+      "races": 10,
       "wins": 1,
-      "average_place": 4.67,
+      "average_place": 4.9,
       "enemy_emoji": "🐶",
-      "enemy_losses": 3
+      "enemy_losses": 4
     },
     {
       "emoji": "🐉",
-      "races": 9,
+      "races": 10,
       "wins": 1,
-      "average_place": 5.33,
+      "average_place": 5.3,
       "enemy_emoji": "🐶",
       "enemy_losses": 3
     }
   ],
   "current_odds": [
     {
-      "emoji": "🐬",
-      "total_amount": 50.0,
-      "bettors": 1,
-      "pool_share": 0.2342,
-      "decimal_odds": 4.27,
-      "example_payout": 213.5
-    },
-    {
       "emoji": "🐉",
-      "total_amount": 15.0,
-      "bettors": 2,
-      "pool_share": 0.1522,
-      "decimal_odds": 6.5692,
-      "example_payout": 98.54
-    },
-    {
-      "emoji": "🐺",
-      "total_amount": 11.0,
-      "bettors": 2,
+      "total_amount": 0.0,
+      "bettors": 0,
       "pool_share": 0.1429,
       "decimal_odds": 7.0,
-      "example_payout": 77.0
-    },
-    {
-      "emoji": "🐯",
-      "total_amount": 1.0,
-      "bettors": 1,
-      "pool_share": 0.1194,
-      "decimal_odds": 8.3725,
-      "example_payout": 8.37
+      "example_payout": 0.0
     },
     {
       "emoji": "🐢",
       "total_amount": 0.0,
       "bettors": 0,
-      "pool_share": 0.1171,
-      "decimal_odds": 8.54,
+      "pool_share": 0.1429,
+      "decimal_odds": 7.0,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐬",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1429,
+      "decimal_odds": 7.0,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐯",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1429,
+      "decimal_odds": 7.0,
       "example_payout": 0.0
     },
     {
       "emoji": "🐶",
       "total_amount": 0.0,
       "bettors": 0,
-      "pool_share": 0.1171,
-      "decimal_odds": 8.54,
+      "pool_share": 0.1429,
+      "decimal_odds": 7.0,
       "example_payout": 0.0
     },
     {
       "emoji": "🐷",
       "total_amount": 0.0,
       "bettors": 0,
-      "pool_share": 0.1171,
-      "decimal_odds": 8.54,
+      "pool_share": 0.1429,
+      "decimal_odds": 7.0,
+      "example_payout": 0.0
+    },
+    {
+      "emoji": "🐺",
+      "total_amount": 0.0,
+      "bettors": 0,
+      "pool_share": 0.1429,
+      "decimal_odds": 7.0,
       "example_payout": 0.0
     }
   ],
   "betting_open": true,
   "summary": {
-    "total_races": 9,
+    "total_races": 10,
     "total_users": 8,
     "total_bids": 35,
     "total_bid_amount": 511.16,
     "average_bid": 14.604571428571429,
-    "active_race_bids": 6,
-    "active_race_amount": 77.0,
-    "active_race_avg_bid": 12.833333333333334
+    "active_race_bids": 0,
+    "active_race_amount": 0.0,
+    "active_race_avg_bid": 0
   },
   "users": [
     {
       "id": "9a14e76d-784d-4f71-83bb-cb7f7d7f6703",
       "tiktok_id": "6701788269304153094",
       "nickname": "piros",
-      "balance": 50.0,
+      "balance": 212.5,
       "created_at": "2026-05-01T15:49:30.786323+00:00",
       "bets": [
         {
@@ -1661,9 +1786,9 @@
           "race_id": "race_1777598329",
           "emoji": "🐬",
           "amount": 50.0,
-          "payout": null,
-          "status": "open",
-          "settled_at": null,
+          "payout": 212.5,
+          "status": "won",
+          "settled_at": "2026-05-02T00:10:07.915573+00:00",
           "decimal_odds": 1.54,
           "potential_payout": 77.0,
           "source_comment_id": "7634950637600080661",
@@ -1673,50 +1798,218 @@
           "updated_at": "2026-05-01T15:49:30.786323+00:00"
         }
       ],
-      "active_bet": {
-        "id": "962c3e6e-a4d8-466d-8667-03497b1a53f6",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐬",
-        "amount": 50.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 1.54,
-        "potential_payout": 77.0,
-        "source_comment_id": "7634950637600080661",
-        "source_comment_text": "bet 50 4",
-        "source_created_at_tiktok": "2026-05-01T15:48:03+00:00",
-        "created_at": "2026-05-01T15:49:30.786323+00:00",
-        "updated_at": "2026-05-01T15:49:30.786323+00:00"
-      },
-      "next_bet": {
-        "id": "962c3e6e-a4d8-466d-8667-03497b1a53f6",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐬",
-        "amount": 50.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 1.54,
-        "potential_payout": 77.0,
-        "source_comment_id": "7634950637600080661",
-        "source_comment_text": "bet 50 4",
-        "source_created_at_tiktok": "2026-05-01T15:48:03+00:00",
-        "created_at": "2026-05-01T15:49:30.786323+00:00",
-        "updated_at": "2026-05-01T15:49:30.786323+00:00"
-      },
+      "active_bet": null,
+      "next_bet": null,
       "highest_bid": 50.0,
-      "total_won": 0.0,
+      "total_won": 212.5,
       "total_lost": 0.0,
-      "net_profit": 0.0
+      "net_profit": 212.5
+    },
+    {
+      "id": "9c99c5f7-e107-4ead-803e-c62b2a71ec28",
+      "tiktok_id": "7452746756229940230",
+      "nickname": "Song...",
+      "balance": 105.0,
+      "created_at": "2026-04-25T22:30:16.820862+00:00",
+      "bets": [
+        {
+          "id": "1cfe4d4a-8a7f-4910-9e52-183dd1db7f5a",
+          "race_uuid": "8e745a84-52a8-4f6a-abe2-f87468453507",
+          "race_id": "race_1777076089",
+          "emoji": "🐯",
+          "amount": 30.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-04-26T00:08:49.938409+00:00",
+          "decimal_odds": 3.0,
+          "potential_payout": 90.0,
+          "source_comment_id": "7632826755372745480",
+          "source_comment_text": "bet 30 🐯",
+          "source_created_at_tiktok": "2026-04-25T22:26:35+00:00",
+          "created_at": "2026-04-25T22:30:16.820862+00:00",
+          "updated_at": "2026-04-25T22:30:16.820862+00:00"
+        },
+        {
+          "id": "c72f862e-f8ce-44bf-9a62-a038f2c4a10f",
+          "race_uuid": "42763b51-84c9-4254-abca-9492e72e4f5d",
+          "race_id": "race_1777161709",
+          "emoji": "🐯",
+          "amount": 5.0,
+          "payout": 100.0,
+          "status": "won",
+          "settled_at": "2026-04-27T00:38:09.380787+00:00",
+          "decimal_odds": 20.0,
+          "potential_payout": 100.0,
+          "source_comment_id": "7632860904229094151",
+          "source_comment_text": "bet 5 🐯",
+          "source_created_at_tiktok": "2026-04-26T00:38:55+00:00",
+          "created_at": "2026-04-26T01:36:50.343263+00:00",
+          "updated_at": "2026-04-26T01:36:50.343263+00:00"
+        },
+        {
+          "id": "79ee15af-ee13-4352-9094-506ec000c6de",
+          "race_uuid": "fce171a9-b6fe-426f-9be2-efa753d0a332",
+          "race_id": "race_1777335251",
+          "emoji": "🐶",
+          "amount": 5.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-04-29T00:07:26.886375+00:00",
+          "decimal_odds": 13.2,
+          "potential_payout": 66.0,
+          "source_comment_id": "7633701814618440466",
+          "source_comment_text": "bet 5 🐶",
+          "source_created_at_tiktok": "2026-04-28T07:02:15+00:00",
+          "created_at": "2026-04-28T07:05:24.243736+00:00",
+          "updated_at": "2026-04-28T07:05:24.243736+00:00"
+        },
+        {
+          "id": "b16753df-6b5e-433c-800e-1e7296b49c71",
+          "race_uuid": "6d78f566-ee37-4d7b-ac5d-05ab731972cf",
+          "race_id": "race_1777420988",
+          "emoji": "🐉",
+          "amount": 5.0,
+          "payout": 5.0,
+          "status": "refunded",
+          "settled_at": "2026-04-30T00:15:40.028747+00:00",
+          "decimal_odds": 8.0,
+          "potential_payout": 40.0,
+          "source_comment_id": "7633971165530424071",
+          "source_comment_text": "bet 5 🐉",
+          "source_created_at_tiktok": "2026-04-29T00:27:25+00:00",
+          "created_at": "2026-04-29T01:14:27.255385+00:00",
+          "updated_at": "2026-04-29T01:14:27.255385+00:00"
+        },
+        {
+          "id": "ddb99b65-d9d5-4c19-8f7f-8ce9fa96372b",
+          "race_uuid": "47537b0b-e298-45d3-91f8-76e6bf57e674",
+          "race_id": "race_1777507914",
+          "emoji": "🐉",
+          "amount": 5.0,
+          "payout": 5.0,
+          "status": "refunded",
+          "settled_at": "2026-05-01T01:23:52.865906+00:00",
+          "decimal_odds": 1.158,
+          "potential_payout": 5.79,
+          "source_comment_id": "7634625955898393362",
+          "source_comment_text": "bet 5 🐉",
+          "source_created_at_tiktok": "2026-04-30T18:48:07+00:00",
+          "created_at": "2026-04-30T19:22:28.762893+00:00",
+          "updated_at": "2026-04-30T19:22:28.762893+00:00"
+        },
+        {
+          "id": "95da4768-dfde-4889-a420-6e0c68a54fcb",
+          "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
+          "race_id": "race_1777598329",
+          "emoji": "🐉",
+          "amount": 5.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-05-02T00:10:07.915573+00:00",
+          "decimal_odds": 5.1333,
+          "potential_payout": 25.67,
+          "source_comment_id": "7634756519146193672",
+          "source_comment_text": "bet 5 🐉",
+          "source_created_at_tiktok": "2026-05-01T03:14:48+00:00",
+          "created_at": "2026-05-01T03:58:23.899502+00:00",
+          "updated_at": "2026-05-01T03:58:23.899502+00:00"
+        }
+      ],
+      "active_bet": null,
+      "next_bet": null,
+      "highest_bid": 30.0,
+      "total_won": 100.0,
+      "total_lost": 40.0,
+      "net_profit": 60.0
+    },
+    {
+      "id": "eedc35b9-f103-420c-b443-b80d272237cd",
+      "tiktok_id": "6745439339884577798",
+      "nickname": "inktopodz",
+      "balance": 77.0,
+      "created_at": "2026-04-26T17:58:43.459559+00:00",
+      "bets": [
+        {
+          "id": "98ff7f3e-e0af-4376-a830-8a1cabf8d2ff",
+          "race_uuid": "42763b51-84c9-4254-abca-9492e72e4f5d",
+          "race_id": "race_1777161709",
+          "emoji": "🐬",
+          "amount": 20.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-04-27T00:38:09.380787+00:00",
+          "decimal_odds": 5.0,
+          "potential_payout": 100.0,
+          "source_comment_id": "7633120054712156935",
+          "source_comment_text": "bet 20 🐬",
+          "source_created_at_tiktok": "2026-04-26T17:24:25+00:00",
+          "created_at": "2026-04-26T17:58:43.459559+00:00",
+          "updated_at": "2026-04-26T17:58:43.459559+00:00"
+        },
+        {
+          "id": "9a852ce6-d621-4089-b867-deacf58093c4",
+          "race_uuid": "fce171a9-b6fe-426f-9be2-efa753d0a332",
+          "race_id": "race_1777335251",
+          "emoji": "🐉",
+          "amount": 15.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-04-29T00:07:26.886375+00:00",
+          "decimal_odds": 4.4,
+          "potential_payout": 66.0,
+          "source_comment_id": "7633872590712652552",
+          "source_comment_text": "bet 15 🐉",
+          "source_created_at_tiktok": "2026-04-28T18:04:40+00:00",
+          "created_at": "2026-04-28T18:35:51.759619+00:00",
+          "updated_at": "2026-04-28T18:35:51.759619+00:00"
+        },
+        {
+          "id": "c2040d37-3271-45bf-b45f-07cc5682d523",
+          "race_uuid": "6d78f566-ee37-4d7b-ac5d-05ab731972cf",
+          "race_id": "race_1777420988",
+          "emoji": "🐢",
+          "amount": 15.0,
+          "payout": 27.0,
+          "status": "won",
+          "settled_at": "2026-04-30T00:15:40.028747+00:00",
+          "decimal_odds": 2.6667,
+          "potential_payout": 40.0,
+          "source_comment_id": "7634197417374499602",
+          "source_comment_text": "podium 15 🐢",
+          "source_created_at_tiktok": "2026-04-29T15:05:04+00:00",
+          "created_at": "2026-04-29T15:17:41.158515+00:00",
+          "updated_at": "2026-04-29T15:17:41.158515+00:00"
+        },
+        {
+          "id": "12116f0d-f456-4175-8197-866c0f14954d",
+          "race_uuid": "0025dd9f-7c0b-4fef-989a-0dcbcf8b3fe7",
+          "race_id": "race_1777249966",
+          "emoji": "🐢",
+          "amount": 10.0,
+          "payout": 60.0,
+          "status": "won",
+          "settled_at": "2026-04-28T00:31:54.401063+00:00",
+          "decimal_odds": 6.0,
+          "potential_payout": 60.0,
+          "source_comment_id": "7633251142398919432",
+          "source_comment_text": "bet 10 🐢",
+          "source_created_at_tiktok": "2026-04-27T01:53:08+00:00",
+          "created_at": "2026-04-27T01:59:53.048946+00:00",
+          "updated_at": "2026-04-27T01:59:53.048946+00:00"
+        }
+      ],
+      "active_bet": null,
+      "next_bet": null,
+      "highest_bid": 20.0,
+      "total_won": 87.0,
+      "total_lost": 35.0,
+      "net_profit": 52.0
     },
     {
       "id": "c536850f-1eeb-4726-9e02-567b79fe95a1",
       "tiktok_id": "7279235238554207238",
       "nickname": "Kleberson😮‍💨😮‍💨",
-      "balance": 60.0,
+      "balance": 50.0,
       "created_at": "2026-04-25T13:55:38.815734+00:00",
       "bets": [
         {
@@ -1827,9 +2120,9 @@
           "race_id": "race_1777598329",
           "emoji": "🐉",
           "amount": 10.0,
-          "payout": null,
-          "status": "open",
-          "settled_at": null,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-05-02T00:10:07.915573+00:00",
           "decimal_odds": 5.1333,
           "potential_payout": 51.33,
           "source_comment_id": "7634733041961517832",
@@ -1839,297 +2132,50 @@
           "updated_at": "2026-05-01T01:57:48.563459+00:00"
         }
       ],
-      "active_bet": {
-        "id": "d456ebc0-8ba4-4cce-9452-f1652316be3d",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐉",
-        "amount": 10.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 5.1333,
-        "potential_payout": 51.33,
-        "source_comment_id": "7634733041961517832",
-        "source_comment_text": "bet 10 🐉",
-        "source_created_at_tiktok": "2026-05-01T01:43:44+00:00",
-        "created_at": "2026-05-01T01:57:48.563459+00:00",
-        "updated_at": "2026-05-01T01:57:48.563459+00:00"
-      },
-      "next_bet": {
-        "id": "d456ebc0-8ba4-4cce-9452-f1652316be3d",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐉",
-        "amount": 10.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 5.1333,
-        "potential_payout": 51.33,
-        "source_comment_id": "7634733041961517832",
-        "source_comment_text": "bet 10 🐉",
-        "source_created_at_tiktok": "2026-05-01T01:43:44+00:00",
-        "created_at": "2026-05-01T01:57:48.563459+00:00",
-        "updated_at": "2026-05-01T01:57:48.563459+00:00"
-      },
+      "active_bet": null,
+      "next_bet": null,
       "highest_bid": 20.0,
       "total_won": 90.0,
-      "total_lost": 65.0,
-      "net_profit": 25.0
+      "total_lost": 75.0,
+      "net_profit": 15.0
     },
     {
-      "id": "d8cba7a8-1152-4ead-a564-caab44327a3b",
-      "tiktok_id": "7416540670805312517",
-      "nickname": "quintuplets.lover",
-      "balance": 10.0,
-      "created_at": "2026-04-25T22:30:16.847873+00:00",
+      "id": "1644a878-15ad-4f4e-a044-09204a247ca3",
+      "tiktok_id": "7204589938779390981",
+      "nickname": "𝓐𝓷𝓪☀︎︎",
+      "balance": 25.0,
+      "created_at": "2026-04-26T01:36:50.316058+00:00",
       "bets": [
         {
-          "id": "f946a5d4-5a9e-4b92-975f-ab4e7a3d1f7a",
-          "race_uuid": "fce171a9-b6fe-426f-9be2-efa753d0a332",
-          "race_id": "race_1777335251",
-          "emoji": "🐯",
+          "id": "e6997b65-1c0f-4c4d-98ec-907131dd191f",
+          "race_uuid": "42763b51-84c9-4254-abca-9492e72e4f5d",
+          "race_id": "race_1777161709",
+          "emoji": "🐉",
           "amount": 25.0,
           "payout": 0.0,
           "status": "lost",
-          "settled_at": "2026-04-29T00:07:26.886375+00:00",
-          "decimal_odds": 2.64,
-          "potential_payout": 66.0,
-          "source_comment_id": "7633919478934127367",
-          "source_comment_text": "bet 25 🐯",
-          "source_created_at_tiktok": "2026-04-28T21:06:42+00:00",
-          "created_at": "2026-04-28T21:36:27.810581+00:00",
-          "updated_at": "2026-04-28T21:36:27.810581+00:00"
-        },
-        {
-          "id": "8072a2fb-4b60-44e9-9514-3d0356f8ec0c",
-          "race_uuid": "8e745a84-52a8-4f6a-abe2-f87468453507",
-          "race_id": "race_1777076089",
-          "emoji": "🐬",
-          "amount": 15.0,
-          "payout": 0.0,
-          "status": "lost",
-          "settled_at": "2026-04-26T00:08:49.938409+00:00",
-          "decimal_odds": 6.0,
-          "potential_payout": 90.0,
-          "source_comment_id": "7632825598620500754",
-          "source_comment_text": "bet 15 🐬",
-          "source_created_at_tiktok": "2026-04-25T22:21:54+00:00",
-          "created_at": "2026-04-25T22:30:16.847873+00:00",
-          "updated_at": "2026-04-25T22:30:16.847873+00:00"
-        },
-        {
-          "id": "f2a06995-1a50-4102-9408-d5f5cd1c218c",
-          "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-          "race_id": "race_1777598329",
-          "emoji": "🐺",
-          "amount": 10.0,
-          "payout": null,
-          "status": "open",
-          "settled_at": null,
-          "decimal_odds": 7.0,
-          "potential_payout": 70.0,
-          "source_comment_id": "7634966670134051592",
-          "source_comment_text": "bet 20 🐺",
-          "source_created_at_tiktok": "2026-05-01T16:50:16+00:00",
-          "created_at": "2026-05-01T17:00:38.961804+00:00",
-          "updated_at": "2026-05-01T17:00:38.961804+00:00"
+          "settled_at": "2026-04-27T00:38:09.380787+00:00",
+          "decimal_odds": 2.5,
+          "potential_payout": 62.5,
+          "source_comment_id": "7632859748497638164",
+          "source_comment_text": "bet 25 🐉",
+          "source_created_at_tiktok": "2026-04-26T00:34:39+00:00",
+          "created_at": "2026-04-26T01:36:50.316058+00:00",
+          "updated_at": "2026-04-26T01:36:50.316058+00:00"
         }
       ],
-      "active_bet": {
-        "id": "f2a06995-1a50-4102-9408-d5f5cd1c218c",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐺",
-        "amount": 10.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 7.0,
-        "potential_payout": 70.0,
-        "source_comment_id": "7634966670134051592",
-        "source_comment_text": "bet 20 🐺",
-        "source_created_at_tiktok": "2026-05-01T16:50:16+00:00",
-        "created_at": "2026-05-01T17:00:38.961804+00:00",
-        "updated_at": "2026-05-01T17:00:38.961804+00:00"
-      },
-      "next_bet": {
-        "id": "f2a06995-1a50-4102-9408-d5f5cd1c218c",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐺",
-        "amount": 10.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 7.0,
-        "potential_payout": 70.0,
-        "source_comment_id": "7634966670134051592",
-        "source_comment_text": "bet 20 🐺",
-        "source_created_at_tiktok": "2026-05-01T16:50:16+00:00",
-        "created_at": "2026-05-01T17:00:38.961804+00:00",
-        "updated_at": "2026-05-01T17:00:38.961804+00:00"
-      },
+      "active_bet": null,
+      "next_bet": null,
       "highest_bid": 25.0,
       "total_won": 0.0,
-      "total_lost": 40.0,
-      "net_profit": -40.0
-    },
-    {
-      "id": "9c99c5f7-e107-4ead-803e-c62b2a71ec28",
-      "tiktok_id": "7452746756229940230",
-      "nickname": "Song...",
-      "balance": 110.0,
-      "created_at": "2026-04-25T22:30:16.820862+00:00",
-      "bets": [
-        {
-          "id": "1cfe4d4a-8a7f-4910-9e52-183dd1db7f5a",
-          "race_uuid": "8e745a84-52a8-4f6a-abe2-f87468453507",
-          "race_id": "race_1777076089",
-          "emoji": "🐯",
-          "amount": 30.0,
-          "payout": 0.0,
-          "status": "lost",
-          "settled_at": "2026-04-26T00:08:49.938409+00:00",
-          "decimal_odds": 3.0,
-          "potential_payout": 90.0,
-          "source_comment_id": "7632826755372745480",
-          "source_comment_text": "bet 30 🐯",
-          "source_created_at_tiktok": "2026-04-25T22:26:35+00:00",
-          "created_at": "2026-04-25T22:30:16.820862+00:00",
-          "updated_at": "2026-04-25T22:30:16.820862+00:00"
-        },
-        {
-          "id": "c72f862e-f8ce-44bf-9a62-a038f2c4a10f",
-          "race_uuid": "42763b51-84c9-4254-abca-9492e72e4f5d",
-          "race_id": "race_1777161709",
-          "emoji": "🐯",
-          "amount": 5.0,
-          "payout": 100.0,
-          "status": "won",
-          "settled_at": "2026-04-27T00:38:09.380787+00:00",
-          "decimal_odds": 20.0,
-          "potential_payout": 100.0,
-          "source_comment_id": "7632860904229094151",
-          "source_comment_text": "bet 5 🐯",
-          "source_created_at_tiktok": "2026-04-26T00:38:55+00:00",
-          "created_at": "2026-04-26T01:36:50.343263+00:00",
-          "updated_at": "2026-04-26T01:36:50.343263+00:00"
-        },
-        {
-          "id": "79ee15af-ee13-4352-9094-506ec000c6de",
-          "race_uuid": "fce171a9-b6fe-426f-9be2-efa753d0a332",
-          "race_id": "race_1777335251",
-          "emoji": "🐶",
-          "amount": 5.0,
-          "payout": 0.0,
-          "status": "lost",
-          "settled_at": "2026-04-29T00:07:26.886375+00:00",
-          "decimal_odds": 13.2,
-          "potential_payout": 66.0,
-          "source_comment_id": "7633701814618440466",
-          "source_comment_text": "bet 5 🐶",
-          "source_created_at_tiktok": "2026-04-28T07:02:15+00:00",
-          "created_at": "2026-04-28T07:05:24.243736+00:00",
-          "updated_at": "2026-04-28T07:05:24.243736+00:00"
-        },
-        {
-          "id": "b16753df-6b5e-433c-800e-1e7296b49c71",
-          "race_uuid": "6d78f566-ee37-4d7b-ac5d-05ab731972cf",
-          "race_id": "race_1777420988",
-          "emoji": "🐉",
-          "amount": 5.0,
-          "payout": 5.0,
-          "status": "refunded",
-          "settled_at": "2026-04-30T00:15:40.028747+00:00",
-          "decimal_odds": 8.0,
-          "potential_payout": 40.0,
-          "source_comment_id": "7633971165530424071",
-          "source_comment_text": "bet 5 🐉",
-          "source_created_at_tiktok": "2026-04-29T00:27:25+00:00",
-          "created_at": "2026-04-29T01:14:27.255385+00:00",
-          "updated_at": "2026-04-29T01:14:27.255385+00:00"
-        },
-        {
-          "id": "ddb99b65-d9d5-4c19-8f7f-8ce9fa96372b",
-          "race_uuid": "47537b0b-e298-45d3-91f8-76e6bf57e674",
-          "race_id": "race_1777507914",
-          "emoji": "🐉",
-          "amount": 5.0,
-          "payout": 5.0,
-          "status": "refunded",
-          "settled_at": "2026-05-01T01:23:52.865906+00:00",
-          "decimal_odds": 1.158,
-          "potential_payout": 5.79,
-          "source_comment_id": "7634625955898393362",
-          "source_comment_text": "bet 5 🐉",
-          "source_created_at_tiktok": "2026-04-30T18:48:07+00:00",
-          "created_at": "2026-04-30T19:22:28.762893+00:00",
-          "updated_at": "2026-04-30T19:22:28.762893+00:00"
-        },
-        {
-          "id": "95da4768-dfde-4889-a420-6e0c68a54fcb",
-          "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-          "race_id": "race_1777598329",
-          "emoji": "🐉",
-          "amount": 5.0,
-          "payout": null,
-          "status": "open",
-          "settled_at": null,
-          "decimal_odds": 5.1333,
-          "potential_payout": 25.67,
-          "source_comment_id": "7634756519146193672",
-          "source_comment_text": "bet 5 🐉",
-          "source_created_at_tiktok": "2026-05-01T03:14:48+00:00",
-          "created_at": "2026-05-01T03:58:23.899502+00:00",
-          "updated_at": "2026-05-01T03:58:23.899502+00:00"
-        }
-      ],
-      "active_bet": {
-        "id": "95da4768-dfde-4889-a420-6e0c68a54fcb",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐉",
-        "amount": 5.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 5.1333,
-        "potential_payout": 25.67,
-        "source_comment_id": "7634756519146193672",
-        "source_comment_text": "bet 5 🐉",
-        "source_created_at_tiktok": "2026-05-01T03:14:48+00:00",
-        "created_at": "2026-05-01T03:58:23.899502+00:00",
-        "updated_at": "2026-05-01T03:58:23.899502+00:00"
-      },
-      "next_bet": {
-        "id": "95da4768-dfde-4889-a420-6e0c68a54fcb",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐉",
-        "amount": 5.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 5.1333,
-        "potential_payout": 25.67,
-        "source_comment_id": "7634756519146193672",
-        "source_comment_text": "bet 5 🐉",
-        "source_created_at_tiktok": "2026-05-01T03:14:48+00:00",
-        "created_at": "2026-05-01T03:58:23.899502+00:00",
-        "updated_at": "2026-05-01T03:58:23.899502+00:00"
-      },
-      "highest_bid": 30.0,
-      "total_won": 100.0,
-      "total_lost": 35.0,
-      "net_profit": 65.0
+      "total_lost": 25.0,
+      "net_profit": -25.0
     },
     {
       "id": "578854f7-b614-4aaf-8c58-d14191dcb7b5",
       "tiktok_id": "7148536799521752070",
       "nickname": "shsksjsh4",
-      "balance": 5.69,
+      "balance": 6.49,
       "created_at": "2026-04-22T00:45:48.242723+00:00",
       "bets": [
         {
@@ -2274,9 +2320,9 @@
           "race_id": "race_1777598329",
           "emoji": "🐺",
           "amount": 1.0,
-          "payout": null,
-          "status": "open",
-          "settled_at": null,
+          "payout": 1.8,
+          "status": "won",
+          "settled_at": "2026-05-02T00:10:07.915573+00:00",
           "decimal_odds": 7.0,
           "potential_payout": 7.0,
           "source_comment_id": "7634728239474688788",
@@ -2286,44 +2332,78 @@
           "updated_at": "2026-05-01T01:57:48.590798+00:00"
         }
       ],
-      "active_bet": {
-        "id": "cbe96b71-bc43-44fb-8cfc-6654db2cf233",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐺",
-        "amount": 1.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 7.0,
-        "potential_payout": 7.0,
-        "source_comment_id": "7634728239474688788",
-        "source_comment_text": "podium 1 🐺",
-        "source_created_at_tiktok": "2026-05-01T01:25:14+00:00",
-        "created_at": "2026-05-01T01:57:48.590798+00:00",
-        "updated_at": "2026-05-01T01:57:48.590798+00:00"
-      },
-      "next_bet": {
-        "id": "cbe96b71-bc43-44fb-8cfc-6654db2cf233",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐺",
-        "amount": 1.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 7.0,
-        "potential_payout": 7.0,
-        "source_comment_id": "7634728239474688788",
-        "source_comment_text": "podium 1 🐺",
-        "source_created_at_tiktok": "2026-05-01T01:25:14+00:00",
-        "created_at": "2026-05-01T01:57:48.590798+00:00",
-        "updated_at": "2026-05-01T01:57:48.590798+00:00"
-      },
+      "active_bet": null,
+      "next_bet": null,
       "highest_bid": 30.0,
-      "total_won": 13.85,
+      "total_won": 15.65,
       "total_lost": 55.0,
-      "net_profit": -41.15
+      "net_profit": -39.35
+    },
+    {
+      "id": "d8cba7a8-1152-4ead-a564-caab44327a3b",
+      "tiktok_id": "7416540670805312517",
+      "nickname": "quintuplets.lover",
+      "balance": 1.0,
+      "created_at": "2026-04-25T22:30:16.847873+00:00",
+      "bets": [
+        {
+          "id": "f946a5d4-5a9e-4b92-975f-ab4e7a3d1f7a",
+          "race_uuid": "fce171a9-b6fe-426f-9be2-efa753d0a332",
+          "race_id": "race_1777335251",
+          "emoji": "🐯",
+          "amount": 25.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-04-29T00:07:26.886375+00:00",
+          "decimal_odds": 2.64,
+          "potential_payout": 66.0,
+          "source_comment_id": "7633919478934127367",
+          "source_comment_text": "bet 25 🐯",
+          "source_created_at_tiktok": "2026-04-28T21:06:42+00:00",
+          "created_at": "2026-04-28T21:36:27.810581+00:00",
+          "updated_at": "2026-04-28T21:36:27.810581+00:00"
+        },
+        {
+          "id": "8072a2fb-4b60-44e9-9514-3d0356f8ec0c",
+          "race_uuid": "8e745a84-52a8-4f6a-abe2-f87468453507",
+          "race_id": "race_1777076089",
+          "emoji": "🐬",
+          "amount": 15.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-04-26T00:08:49.938409+00:00",
+          "decimal_odds": 6.0,
+          "potential_payout": 90.0,
+          "source_comment_id": "7632825598620500754",
+          "source_comment_text": "bet 15 🐬",
+          "source_created_at_tiktok": "2026-04-25T22:21:54+00:00",
+          "created_at": "2026-04-25T22:30:16.847873+00:00",
+          "updated_at": "2026-04-25T22:30:16.847873+00:00"
+        },
+        {
+          "id": "f2a06995-1a50-4102-9408-d5f5cd1c218c",
+          "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
+          "race_id": "race_1777598329",
+          "emoji": "🐺",
+          "amount": 10.0,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-05-02T00:10:07.915573+00:00",
+          "decimal_odds": 7.0,
+          "potential_payout": 70.0,
+          "source_comment_id": "7634966670134051592",
+          "source_comment_text": "bet 20 🐺",
+          "source_created_at_tiktok": "2026-05-01T16:50:16+00:00",
+          "created_at": "2026-05-01T17:00:38.961804+00:00",
+          "updated_at": "2026-05-01T17:00:38.961804+00:00"
+        }
+      ],
+      "active_bet": null,
+      "next_bet": null,
+      "highest_bid": 25.0,
+      "total_won": 0.0,
+      "total_lost": 50.0,
+      "net_profit": -50.0
     },
     {
       "id": "9b67f976-69fe-49b6-9bae-fbcc192999c9",
@@ -2389,9 +2469,9 @@
           "race_id": "race_1777598329",
           "emoji": "🐯",
           "amount": 1.0,
-          "payout": null,
-          "status": "open",
-          "settled_at": null,
+          "payout": 0.0,
+          "status": "lost",
+          "settled_at": "2026-05-02T00:10:07.915573+00:00",
           "decimal_odds": 77.0,
           "potential_payout": 77.0,
           "source_comment_id": "7634965264605578002",
@@ -2401,159 +2481,12 @@
           "updated_at": "2026-05-01T17:00:38.988868+00:00"
         }
       ],
-      "active_bet": {
-        "id": "1cc5f703-8999-46b3-ba49-7626c0c796e5",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐯",
-        "amount": 1.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 77.0,
-        "potential_payout": 77.0,
-        "source_comment_id": "7634965264605578002",
-        "source_comment_text": "podium 20 🐯",
-        "source_created_at_tiktok": "2026-05-01T16:44:44+00:00",
-        "created_at": "2026-05-01T17:00:38.988868+00:00",
-        "updated_at": "2026-05-01T17:00:38.988868+00:00"
-      },
-      "next_bet": {
-        "id": "1cc5f703-8999-46b3-ba49-7626c0c796e5",
-        "race_uuid": "3f8741cd-57f6-4d7b-8966-7887b6d0fc63",
-        "race_id": "race_1777598329",
-        "emoji": "🐯",
-        "amount": 1.0,
-        "payout": null,
-        "status": "open",
-        "settled_at": null,
-        "decimal_odds": 77.0,
-        "potential_payout": 77.0,
-        "source_comment_id": "7634965264605578002",
-        "source_comment_text": "podium 20 🐯",
-        "source_created_at_tiktok": "2026-05-01T16:44:44+00:00",
-        "created_at": "2026-05-01T17:00:38.988868+00:00",
-        "updated_at": "2026-05-01T17:00:38.988868+00:00"
-      },
-      "highest_bid": 20.0,
-      "total_won": 0.0,
-      "total_lost": 50.0,
-      "net_profit": -50.0
-    },
-    {
-      "id": "eedc35b9-f103-420c-b443-b80d272237cd",
-      "tiktok_id": "6745439339884577798",
-      "nickname": "inktopodz",
-      "balance": 77.0,
-      "created_at": "2026-04-26T17:58:43.459559+00:00",
-      "bets": [
-        {
-          "id": "98ff7f3e-e0af-4376-a830-8a1cabf8d2ff",
-          "race_uuid": "42763b51-84c9-4254-abca-9492e72e4f5d",
-          "race_id": "race_1777161709",
-          "emoji": "🐬",
-          "amount": 20.0,
-          "payout": 0.0,
-          "status": "lost",
-          "settled_at": "2026-04-27T00:38:09.380787+00:00",
-          "decimal_odds": 5.0,
-          "potential_payout": 100.0,
-          "source_comment_id": "7633120054712156935",
-          "source_comment_text": "bet 20 🐬",
-          "source_created_at_tiktok": "2026-04-26T17:24:25+00:00",
-          "created_at": "2026-04-26T17:58:43.459559+00:00",
-          "updated_at": "2026-04-26T17:58:43.459559+00:00"
-        },
-        {
-          "id": "9a852ce6-d621-4089-b867-deacf58093c4",
-          "race_uuid": "fce171a9-b6fe-426f-9be2-efa753d0a332",
-          "race_id": "race_1777335251",
-          "emoji": "🐉",
-          "amount": 15.0,
-          "payout": 0.0,
-          "status": "lost",
-          "settled_at": "2026-04-29T00:07:26.886375+00:00",
-          "decimal_odds": 4.4,
-          "potential_payout": 66.0,
-          "source_comment_id": "7633872590712652552",
-          "source_comment_text": "bet 15 🐉",
-          "source_created_at_tiktok": "2026-04-28T18:04:40+00:00",
-          "created_at": "2026-04-28T18:35:51.759619+00:00",
-          "updated_at": "2026-04-28T18:35:51.759619+00:00"
-        },
-        {
-          "id": "c2040d37-3271-45bf-b45f-07cc5682d523",
-          "race_uuid": "6d78f566-ee37-4d7b-ac5d-05ab731972cf",
-          "race_id": "race_1777420988",
-          "emoji": "🐢",
-          "amount": 15.0,
-          "payout": 27.0,
-          "status": "won",
-          "settled_at": "2026-04-30T00:15:40.028747+00:00",
-          "decimal_odds": 2.6667,
-          "potential_payout": 40.0,
-          "source_comment_id": "7634197417374499602",
-          "source_comment_text": "podium 15 🐢",
-          "source_created_at_tiktok": "2026-04-29T15:05:04+00:00",
-          "created_at": "2026-04-29T15:17:41.158515+00:00",
-          "updated_at": "2026-04-29T15:17:41.158515+00:00"
-        },
-        {
-          "id": "12116f0d-f456-4175-8197-866c0f14954d",
-          "race_uuid": "0025dd9f-7c0b-4fef-989a-0dcbcf8b3fe7",
-          "race_id": "race_1777249966",
-          "emoji": "🐢",
-          "amount": 10.0,
-          "payout": 60.0,
-          "status": "won",
-          "settled_at": "2026-04-28T00:31:54.401063+00:00",
-          "decimal_odds": 6.0,
-          "potential_payout": 60.0,
-          "source_comment_id": "7633251142398919432",
-          "source_comment_text": "bet 10 🐢",
-          "source_created_at_tiktok": "2026-04-27T01:53:08+00:00",
-          "created_at": "2026-04-27T01:59:53.048946+00:00",
-          "updated_at": "2026-04-27T01:59:53.048946+00:00"
-        }
-      ],
       "active_bet": null,
       "next_bet": null,
       "highest_bid": 20.0,
-      "total_won": 87.0,
-      "total_lost": 35.0,
-      "net_profit": 52.0
-    },
-    {
-      "id": "1644a878-15ad-4f4e-a044-09204a247ca3",
-      "tiktok_id": "7204589938779390981",
-      "nickname": "𝓐𝓷𝓪☀︎︎",
-      "balance": 25.0,
-      "created_at": "2026-04-26T01:36:50.316058+00:00",
-      "bets": [
-        {
-          "id": "e6997b65-1c0f-4c4d-98ec-907131dd191f",
-          "race_uuid": "42763b51-84c9-4254-abca-9492e72e4f5d",
-          "race_id": "race_1777161709",
-          "emoji": "🐉",
-          "amount": 25.0,
-          "payout": 0.0,
-          "status": "lost",
-          "settled_at": "2026-04-27T00:38:09.380787+00:00",
-          "decimal_odds": 2.5,
-          "potential_payout": 62.5,
-          "source_comment_id": "7632859748497638164",
-          "source_comment_text": "bet 25 🐉",
-          "source_created_at_tiktok": "2026-04-26T00:34:39+00:00",
-          "created_at": "2026-04-26T01:36:50.316058+00:00",
-          "updated_at": "2026-04-26T01:36:50.316058+00:00"
-        }
-      ],
-      "active_bet": null,
-      "next_bet": null,
-      "highest_bid": 25.0,
       "total_won": 0.0,
-      "total_lost": 25.0,
-      "net_profit": -25.0
+      "total_lost": 51.0,
+      "net_profit": -51.0
     }
   ]
 }
